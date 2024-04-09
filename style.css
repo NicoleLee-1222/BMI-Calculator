@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Helvetica;
+}
+
+input {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding:8px;
+  width: 200px;
+}
+
+button {
+  border-radius: 5px;
+  padding: 8px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #89CFF0;
+}
+
+#result {
+  border-style: groove;
+  border-radius: 5px;
+  background-color: #F8FE7C;
+  padding: 10px;
+  width: 250px;
+  height: 40px;
+}
